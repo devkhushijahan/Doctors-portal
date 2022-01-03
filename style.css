@@ -1,0 +1,33 @@
+body{
+    padding:0 ;
+    margin:0 ;
+   box-sizing: border-box; 
+}
+/* Header  css  style */
+.header{
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+   
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.header .navber ul{ 
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.header .navber ul li{
+  margin: 10px; 
+  padding: 5px; 
+}
+.header .navber ul li a{
+ text-decoration: none; 
+  font-size: 18px; 
+  color: black;
+}
+
+
+/* Header  css  style */
